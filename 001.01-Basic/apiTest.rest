@@ -1,3 +1,7 @@
+GET http://localhost:5000/api/dosomething
+
+GET http://localhost:5000/api/dosomething/321
+
 POST http://localhost:5000/api/dosomething
 content-type: application/json
 Authorization: jwt abc-xyz
@@ -9,3 +13,7 @@ custom-header2: header XYZ
 	"email": "john@gmail.com",
 	"message": "Hi John"
 }
+
+PUT http://localhost:5000/api/dosomething/321
+
+DELETE http://localhost:5000/api/dosomething/321
